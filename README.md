@@ -10,6 +10,7 @@ License: MIT
  - MacOS: Tested & working
  - Linux: Untested but should work
  - Windows: Untested but should with with Bash (https://msdn.microsoft.com/en-us/commandline/wsl/install_guide) or Cygwin
+
 2) Have nodejs and npm installed
 
 ###Installation Instructions:
@@ -33,7 +34,7 @@ find . -name "*.html" -execdir node process.js {} \;
 ```
 
 ###TODO:
- - Bulk processing by default if no filename is provided
- - Add recursive flag for including subdirectories
- - Exclude node_modules subdirectory from recursive execution
- - Create Electron installer for users not comfortable with terminal
+ - [ ] Bulk processing by default if no filename is provided
+ - [ ] Add recursive flag for including subdirectories
+ - [ ] Exclude node_modules subdirectory from recursive execution
+ - [ ] Create Electron installer for users not comfortable with terminal
